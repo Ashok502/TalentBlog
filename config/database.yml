@@ -1,0 +1,10 @@
+default: &default
+  adapter: sqlserver
+  dataserver: 3.218.136.2
+  timeout: 50000
+  username: gspvcheckout
+  password: "4N8Y7lwED"
+
+development:
+  <<: *default
+  database: SalesforceMirror  
